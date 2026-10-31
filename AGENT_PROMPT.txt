@@ -1,0 +1,21 @@
+Erstelle eine direkt herunterladbare UTF-8-Textdatei mit dem Namen „passwoerter_keyqueue.txt“, die mindestens 100 (vorzugsweise genau 120) verschiedene, zufällig und kryptografisch sicher erzeugte Passwörter enthält.
+
+JEDES Passwort muss ALLE folgenden Bedingungen erfüllen:
+- Exakt 8 bis 10 Zeichen lang.
+- Mindestens 1 Großbuchstabe (A–Z).
+- Mindestens 1 Kleinbuchstabe (a–z).
+- Mindestens 1 Ziffer (0–9).
+- Mindestens 1 Sonderzeichen aus dieser erlaubten Zeichenmenge: ! @ # $ % & * ? + - _ = ; :
+- Ausschließlich ASCII-Zeichen aus den obigen Gruppen, keine Leerzeichen, keine Umlaute.
+- Alle Passwörter müssen unterschiedlich sein.
+
+DATEIFORMAT – GANZ WICHTIG FÜR DIE KEYQUEUE-APP:
+- Eine schlichte .txt-Datei, UTF-8-kodiert.
+- GENAU EIN Passwort pro Zeile.
+- KEINE Nummerierung, KEIN Tabellenformat/CSV, KEINE Anführungszeichen.
+- KEINE Überschrift, KEINE Kommentare, KEINE Aufzählungszeichen und KEIN Markdown-Codeblock in der Datei.
+- Keine zusätzlichen Leerzeichen am Anfang oder Ende einer Zeile.
+- Keine leeren Zeilen zwischen den Passwörtern.
+- Jede Zeile muss vollständig als einzelnes Passwort nutzbar sein.
+
+Bitte prüfe vor der Ausgabe automatisch alle Zeilen auf Länge, erlaubte Zeichen, vier Zeichenklassen und Eindeutigkeit. Liefere dann die tatsächliche .txt-Datei zum Herunterladen und keine bloße Tabelle oder Liste im Chat.
